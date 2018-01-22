@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EAB731C1FFF17CE00AD7860 /* StarBucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB731B1FFF17CE00AD7860 /* StarBucks.swift */; };
 		7ED1228F1FD96F4A00D74B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED1228E1FD96F4A00D74B99 /* AppDelegate.swift */; };
 		7ED122911FD96F4A00D74B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED122901FD96F4A00D74B99 /* ViewController.swift */; };
 		7ED122941FD96F4A00D74B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED122921FD96F4A00D74B99 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EAB731B1FFF17CE00AD7860 /* StarBucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucks.swift; sourceTree = "<group>"; };
 		7ED1228B1FD96F4A00D74B99 /* isItOpen?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "isItOpen?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED1228E1FD96F4A00D74B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ED122901FD96F4A00D74B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				7ED1228E1FD96F4A00D74B99 /* AppDelegate.swift */,
 				7ED122901FD96F4A00D74B99 /* ViewController.swift */,
+				7EAB731B1FFF17CE00AD7860 /* StarBucks.swift */,
 				7ED122921FD96F4A00D74B99 /* Main.storyboard */,
 				7ED122951FD96F4A00D74B99 /* Assets.xcassets */,
 				7ED122971FD96F4A00D74B99 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				7ED122911FD96F4A00D74B99 /* ViewController.swift in Sources */,
 				7ED1228F1FD96F4A00D74B99 /* AppDelegate.swift in Sources */,
+				7EAB731C1FFF17CE00AD7860 /* StarBucks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC7C72JKBA;
 				INFOPLIST_FILE = "isItOpen?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BobSIlva.isItOpen-";
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC7C72JKBA;
 				INFOPLIST_FILE = "isItOpen?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BobSIlva.isItOpen-";
